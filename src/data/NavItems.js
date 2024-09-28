@@ -11,8 +11,8 @@ const navItems = [
     href: "#",
     subNavItems: [
       { id: 1, name: "Sukuk", href: "/sukuk" },
-      { id: 2, name: "Sharia Stock", href: "/sharia-stock" },
-      { id: 3, name: "Secondary Market", href: "/secondary-market" },
+      { id: 2, name: "Sharia Stock", href: "/stock" },
+      { id: 3, name: "Secondary Market", href: "/market" },
     ],
   },
   {
