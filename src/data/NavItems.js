@@ -10,9 +10,9 @@ const navItems = [
     name: "Services",
     href: "#",
     subNavItems: [
-      { id: 1, name: "Sukuk", href: "#" },
-      { id: 2, name: "Sharia Stock", href: "#" },
-      { id: 3, name: "Secondary Market", href: "#" },
+      { id: 1, name: "Sukuk", href: "/sukuk" },
+      { id: 2, name: "Sharia Stock", href: "/sharia-stock" },
+      { id: 3, name: "Secondary Market", href: "/secondary-market" },
     ],
   },
   {
@@ -20,7 +20,7 @@ const navItems = [
     name: "About",
     href: "/about",
     subNavItems: [
-      { id: 1, name: "Invsma Team", href: "#" },
+      
     ],
   },
   {
