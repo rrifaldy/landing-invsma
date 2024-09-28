@@ -1,51 +1,91 @@
 const teamOne = [
   {
     id: 1,
-    image: "team-one-img-1.jpg",
-    name: "Janne",
-    title: "Volunteer",
+    image: "taleb.png",
+    name: "Taleb",
+    title: "Taleb Abdul Karem Bin Taleb",
     description:
-      "There are many of lorem ipsum available but the have in some form.",
+      "President Commissioner",
   },
   {
     id: 2,
-    image: "team-one-img-2.jpg",
-    name: "David",
-    title: "Volunteer",
+    image: "erly.webp",
+    name: "Erly",
+    title: "Erly Witoyo",
     description:
-      "There are many of lorem ipsum available but the have in some form.",
+      "Commissioner",
   },
   {
     id: 3,
-    image: "team-one-img-3.jpg",
-    name: "Sarah",
-    title: "Volunteer",
+    image: "husni.webp",
+    name: "Husni",
+    title: "Husni Muhammad B",
     description:
-      "There are many of lorem ipsum available but the have in some form.",
+      "Chief Executive Officer",
   },
   {
     id: 4,
-    image: "team-page-img-4.jpg",
-    name: "Albert",
-    title: "Volunteer",
+    image: "hasemi.webp",
+    name: "Hasemi",
+    title: "Hasemi Rafsanjani",
     description:
-      "There are many of lorem ipsum available but the have in some form.",
+      "Chief Technology Officer",
   },
   {
     id: 5,
-    image: "team-page-img-5.jpg",
-    name: "Hallen",
-    title: "Volunteer",
+    image: "anung.webp",
+    name: "Anung",
+    title: "Anung Anindita",
     description:
-      "There are many of lorem ipsum available but the have in some form.",
+      "Chief Operating Officer",
   },
   {
     id: 6,
-    image: "team-page-img-6.jpg",
-    name: "Pitter",
-    title: "Volunteer",
+    image: "abdullah.webp",
+    name: "Abdullah",
+    title: "Abdullah Alhamady",
     description:
-      "There are many of lorem ipsum available but the have in some form.",
+      "Senior Sharia Advisor",
+  },
+  {
+    id: 7,
+    image: "ahmad.webp",
+    name: "Ahmad",
+    title: "Ahmad Sabree",
+    description:
+      "Sharia Compliance",
+  },
+  {
+    id: 8,
+    image: "mansoor.webp",
+    name: "Mansoor",
+    title: "Mansoor Al Wajih",
+    description:
+      "Investor Relation",
+  },
+  {
+    id: 9,
+    image: "riko.webp",
+    name: "Riko",
+    title: "Riko Permana",
+    description:
+      "Financial Analyst",
+  },
+  {
+    id: 10,
+    image: "sidiq.webp",
+    name: "Sidiq",
+    title: "Muhammad Sidiq Abdul Aziz",
+    description:
+      "Business Development",
+  },
+  {
+    id: 11,
+    image: "sabar.webp",
+    name: "Sabar",
+    title: "Muhammad Sabar",
+    description:
+      "IT Manager",
   },
 ];
 

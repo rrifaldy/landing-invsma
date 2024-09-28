@@ -18,7 +18,7 @@ const navItems = [
   {
     id: 3,
     name: "About",
-    href: "#",
+    href: "/about",
     subNavItems: [
       { id: 1, name: "Invsma Team", href: "#" },
     ],
@@ -48,6 +48,5 @@ export default navItems;
 export const social = [
   { icon: "fa-twitter", link: "" },
   { icon: "fa-facebook-square", link: "" },
-  { icon: "fa-dribbble", link: "" },
   { icon: "fa-instagram", link: "" },
 ];

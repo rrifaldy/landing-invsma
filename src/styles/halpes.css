@@ -5059,10 +5059,14 @@ h6 {
   display: block;
 }
 
+.font-bold {
+  font-weight: bold;
+}
+
 .team-one__img {
   position: relative;
   display: block;
-  background-color: var(--thm-black);
+  background-color: transparent;
 }
 
 .team-one__img>img {
