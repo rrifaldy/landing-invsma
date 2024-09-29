@@ -17,16 +17,10 @@ const SingleSlide = ({ slide = {} }) => {
           <Col lg={8}>
             <div className="main-slider__content">
               <p>{subTitle}</p>
-              <h2>
-                {title} <br />
-                in Need
-              </h2>
+              <h2>{title}</h2>
               <a href={href} className="thm-btn">
-                <i className="fas fa-arrow-circle-right"></i>Learn More
+                <i className="fas fa-arrow-circle-right"></i>Login
               </a>
-              <div className="main-slider__shape-1 zoom-fade">
-                <Image src={image.src} alt="" />
-              </div>
             </div>
           </Col>
         </Row>

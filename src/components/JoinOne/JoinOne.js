@@ -1,4 +1,4 @@
-import bg from "@/images/backgrounds/join-one-bg.jpg";
+import bg from "@/images/hero/Asset2.jpg";
 import dynamic from "next/dynamic";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
@@ -15,13 +15,17 @@ const JoinOne = ({ className = "" }) => {
         <Row>
           <Col xl={12}>
             <div className="join-one__inner">
-              <h2 className="join-one__title">
-                Join the community to give <br />
-                education for children
+              <h2
+                className="join-one__title"
+                style={{ fontSize: "40px", marginBottom: "10px" }}
+              >
+                Why Us
               </h2>
-              <a href="#" className="join-one__btn thm-btn">
-                <i className="fas fa-arrow-circle-right"></i>Learn More
-              </a>
+              <h2 className="join-one__title">
+                Trusted experts with years of experience and industry
+                accreditations
+              </h2>
+              
             </div>
           </Col>
         </Row>

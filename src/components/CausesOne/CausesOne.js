@@ -33,10 +33,11 @@ const CausesOne = () => {
     <section className="causes-one">
       <Container>
         <div className="section-title text-center">
-          <span className="section-title__tagline">Latest Causes</span>
+          <span className="section-title__tagline">Our Project</span>
           <h2 className="section-title__title">
-            Find the popular cause <br />
-            and donate them
+            Our Projects Explore investment opportunities handpicked for growth.{" "}
+            <br />
+            Join us in shaping tomorrow&#39;s success stories.
           </h2>
         </div>
         <Row>
