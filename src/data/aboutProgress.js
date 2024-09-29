@@ -1,13 +1,13 @@
 const aboutProgress = [
   {
     id: 1,
-    percentage: 90,
-    title: "Successful causes",
+    percentage: 85,
+    title: "Profitable Investments",
   },
   {
     id: 2,
-    percentage: 50,
-    title: "Amazing donors",
+    percentage: 70,
+    title: "Satisfied Clients",
   },
 ];
 

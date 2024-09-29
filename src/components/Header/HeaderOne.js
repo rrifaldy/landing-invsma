@@ -1,7 +1,7 @@
 import { useRootContext } from "@/context/context";
 import navItems, { social } from "@/data/NavItems";
 import useScroll from "@/hooks/useScroll";
-import logo from "@/images/resources/logo-1.png";
+import logo from "@/images/resources/logo-putih.png";
 import Link from "next/link";
 import React from "react";
 import { Image } from "react-bootstrap";
@@ -16,7 +16,7 @@ const HeaderOne = () => {
       <div className="main-header__logo">
         <Link href="/">
           <a>
-            <Image src={logo.src} alt="" />
+            <Image src={logo.src} alt="" className="header-logo" />
           </a>
         </Link>
       </div>
@@ -26,15 +26,15 @@ const HeaderOne = () => {
             <div className="main-menu-wrapper__left">
               <div className="main-menu-wrapper__left-content">
                 <div className="main-menu-wrapper__left-text">
-                  <p>Welcome to the Charity & Donation Theme</p>
+                  <p>Welcome to INVSMA Website. Building wealth, creating futures.</p>
                 </div>
                 <div className="main-menu-wrapper__left-email-box">
                   <div className="icon">
                     <i className="fas fa-envelope"></i>
                   </div>
                   <div className="email">
-                    <a href="mailto:needhelp@company.com">
-                      needhelp@company.com
+                    <a href="mailto:admin@invsma.com">
+                      admin@invsma.com
                     </a>
                   </div>
                 </div>
@@ -95,7 +95,7 @@ const HeaderOne = () => {
                 </div>
                 <Link href="/causes-details">
                   <a className="main-menu__donate-btn">
-                    <i className="fa fa-heart"></i>Donate
+                    <i className="fa fa-user"></i>Login
                   </a>
                 </Link>
               </div>

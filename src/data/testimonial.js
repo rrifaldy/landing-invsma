@@ -5,7 +5,7 @@ const testimonial = [
       "Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: "testimonial-1-img-1.png",
     name: "Kevin Martin",
-    category: "Volunteer",
+    category: "Investor",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const testimonial = [
       "Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: "testimonial-1-img-2.png",
     name: "Jessica Brown",
-    category: "Volunteer",
+    category: "Investor",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const testimonial = [
       "Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: "testimonial-1-img-1.png",
     name: "Jessica Brown",
-    category: "Volunteer",
+    category: "Investor",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const testimonial = [
       "Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: "testimonial-1-img-2.png",
     name: "Kevin Martin",
-    category: "Volunteer",
+    category: "Investor",
   },
 ];
 

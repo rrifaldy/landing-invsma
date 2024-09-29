@@ -1,26 +1,26 @@
 const counter = [
   {
     id: 1,
-    count: 870,
-    letter: "K",
-    text: "Total Donations",
+    count: 120,
+    letter: "M",
+    text: "Total Investments",
   },
   {
     id: 2,
-    count: 480,
-    text: "Campaigns Closed",
+    count: 350,
+    text: "Successful Projects",
   },
   {
     id: 3,
-    count: 977,
-    letter: "K",
-    text: "Happy People",
+    count: 500,
+    letter: "+",
+    text: "Satisfied Investors",
   },
   {
     id: 4,
-    count: 63,
+    count: 75,
     letter: "+",
-    text: "Our Volunteers",
+    text: "Expert Advisors",
   },
 ];
 

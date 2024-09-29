@@ -1,7 +1,6 @@
-import brandOne from "@/data/brandOne";
 import dynamic from "next/dynamic";
 import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
 
 const settings = {
@@ -33,6 +32,30 @@ const settings = {
   },
 };
 
+// Array with main text and subtext
+const brandTexts = [
+  {
+    main: "Insight to light",
+    subtext: "by challenging traditional thinking and ways of operating and bringing new perspectives to the toughest problems."
+  },
+  {
+    main: "Drive inspired impact",
+    subtext: "by looking beyond the next deadline to the next decade and by collaborating closely with our clients to enable and energize their organizations."
+  },
+  {
+    main: "Conquer complexity",
+    subtext: "by discovering unique sources of competitive advantage and hidden truths in dynamic, complex systems."
+  },
+  {
+    main: "Lead with integrity",
+    subtext: "by confronting the hard issues, staying true to our values, and stating our views candidly and directly."
+  },
+  {
+    main: "Grow by growing others",
+    subtext: "enabling our clients, colleagues, and the broader community to build success and achieve their full potential."
+  }
+];
+
 const BrandOne = ({ brandClass = "" }) => {
   return (
     <section className={`brand-one ${brandClass}`}>
@@ -40,17 +63,20 @@ const BrandOne = ({ brandClass = "" }) => {
         <Row>
           <Col xl={12}>
             <TinySlider settings={settings} className="brand-one__carousel">
-              {brandOne.map((image, index) => (
+              {brandTexts.map((item, index) => (
                 <div key={index}>
                   <div
-                    style={{ userSelect: "none" }}
+                    style={{ 
+                      userSelect: "none", 
+                      textAlign: "left", 
+                      fontSize: "0.6em",
+                      fontWeight: "normal"  
+                    }}
                     className="brand-one__single"
                   >
-                    <div className="brand-one__img">
-                      <Image
-                        src={require(`@/images/resources/${image}`).default.src}
-                        alt=""
-                      />
+                    <div className="brand-one__text">
+                      <h5 className="font-bold">{item.main}</h5> {/* Main text */}
+                      <p>{item.subtext}</p> {/* Subtext */}
                     </div>
                   </div>
                 </div>

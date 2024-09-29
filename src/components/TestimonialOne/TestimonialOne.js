@@ -40,7 +40,7 @@ const TestimonialOne = ({ className = "" }) => {
               <div className="section-title text-left">
                 <span className="section-title__tagline">Our Testimonials</span>
                 <h2 className="section-title__title">
-                  What they’re talking about charity
+                  What they’re talking about Invsma
                 </h2>
               </div>
             </div>

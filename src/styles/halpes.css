@@ -249,7 +249,11 @@ h6 {
   float: left;
   background-color: var(--thm-primary);
   text-align: center;
-  padding: 44px 0;
+  padding: 26px 0;
+}
+
+.header-logo {
+  width: 50%;
 }
 
 .main-menu-wrapper {
@@ -5054,10 +5058,14 @@ h6 {
   display: block;
 }
 
+.font-bold {
+  font-weight: bold;
+}
+
 .team-one__img {
   position: relative;
   display: block;
-  background-color: var(--thm-black);
+  background-color: transparent;
 }
 
 .team-one__img > img {
@@ -5971,7 +5979,6 @@ h6 {
   display: block;
   background: #eff5f4;
   padding: 40px 40px 14px 40px;
-  margin-top: 30px;
 }
 
 .causes-details__donations-title {
@@ -5990,6 +5997,11 @@ h6 {
   position: relative;
   display: flex;
   align-items: center;
+  font-size: 15px;
+}
+
+.list-karakteristik {
+  margin-right: 10px;
 }
 
 .causes-details__donations-list li + li {
