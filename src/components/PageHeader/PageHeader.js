@@ -3,6 +3,7 @@ import bg2 from "@/images/resources/assets-laptop.jpg";
 import bg3 from "@/images/resources/assets-people.jpg";
 import bg4 from "@/images/resources/assets-cms.jpg";
 import bg5 from "@/images/resources/assets-pen.jpg";
+import bg from "@/images/hero/Asset3.jpg";
 import Link from "next/link";
 import React from "react";
 
