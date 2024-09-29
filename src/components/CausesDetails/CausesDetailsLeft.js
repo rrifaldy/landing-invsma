@@ -5,6 +5,7 @@ import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import CommentForm from "../CommentForm/CommentForm";
 import SingleComment from "./SingleComment";
+import { formatToIDR } from "src/helper/formatIDR";
 
 const {
   comments,
@@ -44,13 +45,20 @@ const CausesDetailsLeft = () => {
               </div>
             </div>
           </div>
-          <div className="causes-details__goals">
-            <p>
-              <span>${raised}</span> Raised
-            </p>
-            <p>
-              <span>${goal}</span> Goal
-            </p>
+          <div className="causes-one__goals mt-3">
+            <div>
+              <p style={{ marginBottom: "0", fontSize: "12px" }}>Tercapai</p>
+              <p style={{ marginBottom: "0", fontSize: "14px" }}>
+                {formatToIDR(raised)}
+              </p>
+            </div>
+
+            <div>
+              <p style={{ marginBottom: "0", fontSize: "12px" }}>Target</p>
+              <p style={{ marginBottom: "0", fontSize: "14px" }}>
+                {formatToIDR(goal)}
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -92,42 +100,6 @@ const CausesDetailsLeft = () => {
           </ul>
         </div>
       </div>
-      <div className="causes-details__share">
-        <div className="causes-details__share-btn-box">
-          <a href="#" className="causes-details__share-btn thm-btn">
-            <i className="fas fa-arrow-circle-right"></i>Donate Us Now
-          </a>
-        </div>
-        <div className="causes-details__share-social">
-          {social.map(({ icon, link }, index) => (
-            <a href={link} key={index}>
-              <i className={`fab ${icon}`}></i>
-            </a>
-          ))}
-        </div>
-      </div>
-      <div className="causes-details__download">
-        <div className="causes-details__left">
-          <div className="icon">
-            <Image src={download.src} alt="" />
-          </div>
-          <div className="text">
-            <h4>Our Presentation</h4>
-          </div>
-        </div>
-        <div className="causes-details__download-btn-box">
-          <a href="#" className="causes-details__download-btn thm-btn">
-            <i className="fas fa-arrow-circle-right"></i>Download Now
-          </a>
-        </div>
-      </div>
-      <div className="comment-one">
-        <h3 className="comment-one__title">Comments</h3>
-        {comments.map((comment) => (
-          <SingleComment key={comment.id} comment={comment} />
-        ))}
-      </div>
-      <CommentForm />
     </div>
   );
 };

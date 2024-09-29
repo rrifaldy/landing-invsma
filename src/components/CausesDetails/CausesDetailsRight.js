@@ -1,6 +1,7 @@
 import organizer from "@/images/resources/causes-details-organizar-img-1.jpg";
 import React from "react";
 import { Image } from "react-bootstrap";
+import { Link } from "react-scroll";
 
 const donations = [
   {
@@ -59,27 +60,12 @@ const CausesDetailsRight = () => {
           </ul>
         </div>
       </div>
-      <div className="causes-details__donations">
-        <h3 className="causes-details__donations-title">Recent Donations</h3>
-        <ul className="list-unstyled causes-details__donations-list">
-          {donations.map(({ id, amount, image, name, text, time }) => (
-            <li key={id}>
-              <div className="causes-details__donations-img">
-                <Image
-                  src={require(`@/images/resources/${image}`).default.src}
-                  alt=""
-                />
-              </div>
-              <div className="causes-details__donations-content">
-                <h4>${amount}</h4>
-                <h5>
-                  {name} <span>{time}</span>
-                </h5>
-                <p>{text}</p>
-              </div>
-            </li>
-          ))}
-        </ul>
+      <div className="d-flex align-items-center mt-3">
+        <Link href="/causes-details">
+          <a className="main-menu__donate-btn" style={{ marginLeft: "0px" }}>
+            Invest NOW
+          </a>
+        </Link>
       </div>
     </div>
   );

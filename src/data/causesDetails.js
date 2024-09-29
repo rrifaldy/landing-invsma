@@ -1,6 +1,6 @@
-import image2 from "@/images/resources/causes-details-images-1.jpg";
-import image3 from "@/images/resources/causes-details-images-2.jpg";
-import image from "@/images/resources/causes-details-img.jpg";
+import image2 from "@/images/project/project1.webp";
+import image3 from "@/images/project/project1.webp";
+import image from "@/images/project/project1.webp";
 
 const text1 =
   "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.";
@@ -11,10 +11,16 @@ const summaryText =
   "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing.";
 
 const causesDetails = {
+  category: "Sukuk",
+  title: "PT DHUHA",
+  pt: "INVSMA",
+  description:
+    "Proyek ini bertujuan untuk memenuhi kebutuhan klien kami dalam bidang property untuk tujuan pemecahan SHM (Surat Hak Milik) di pro",
   raised: "25,270",
-  goal: "30,000",
-  category: "Medical",
-  title: "Raise Fund for Clean & Healthy Water",
+  lokasi: "Citayam, Jakarta",
+  raised: "1250900000",
+  goal: "3999100000",
+  day: 45,
 
   images: [image, image2, image3],
   texts: [text1, text2],
