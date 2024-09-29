@@ -1,20 +1,10 @@
 import footerData from "@/data/footerData";
-import Link from "next/link";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
+import logo from "@/images/logo/logo4.webp";
 
-const {
-  exploreList,
-  social,
-  email,
-  tel,
-  officeAddress,
-  about,
-  link,
-  copyrightYear,
-  bottomLogo,
-  footerBg,
-} = footerData;
+const { exploreList, email, tel, officeAddress, inside, Thingking, copyright } =
+  footerData;
 
 const SiteFooter = () => {
   return (
@@ -22,16 +12,45 @@ const SiteFooter = () => {
       <div className="site-footer-bg"></div>
       <Container>
         <div className="site-footer__top">
-          <Row>
-            <Col xl={3} lg={6} md={6} className="fadeInUp">
-              <div className="footer-widget__column footer-widget__about">
-                <h3 className="footer-widget__title">About</h3>
-                <p className="footer-widget__text">{about}</p>
-                <a href="#" className="footer-widget__about-btn">
-                  <i className="fa fa-heart"></i>Donate
-                </a>
-              </div>
-            </Col>
+          <div
+            className="footer-widget__column footer-widget__about d-flex align-items-center gap-5"
+            style={{ borderBottom: "1px solid #464d4e", paddingBottom: "3rem" }}
+          >
+            <Image src={logo.src} alt="" width={120} />
+            <div>
+              <p
+                style={{
+                  fontSize: "20px",
+                  fontWeight: "600",
+                  marginBottom: "0px",
+                  color: "#8fd299",
+                }}
+              >
+                Building wealth, creating futures.
+              </p>
+              <p
+                style={{
+                  fontSize: "16px",
+                  fontWeight: "600",
+                  marginBottom: "0px",
+                  color: "#8fd299",
+                }}
+              >
+                Admin/ Customer Service: 0812-9230-0803
+              </p>
+              <p
+                style={{
+                  fontSize: "16px",
+                  fontWeight: "600",
+                  marginBottom: "0px",
+                  color: "#8fd299",
+                }}
+              >
+                Email: admin@invsma.com
+              </p>
+            </div>
+          </div>
+          <Row className="mt-5">
             <Col
               xl={3}
               lg={6}
@@ -40,7 +59,7 @@ const SiteFooter = () => {
               data-wow-delay="200ms"
             >
               <div className="footer-widget__column footer-widget__explore clearfix">
-                <h3 className="footer-widget__title">Explore</h3>
+                <h3 className="footer-widget__title">Service</h3>
                 <ul className="footer-widget__explore-list list-unstyled">
                   {exploreList.slice(0, 5).map(({ id, title, href }) => (
                     <li key={id}>
@@ -57,9 +76,58 @@ const SiteFooter = () => {
                 </ul>
               </div>
             </Col>
-            <Col xl={3} lg={6} md={6} className="fadeInUp">
+            <Col
+              xl={3}
+              lg={6}
+              md={6}
+              className="wow fadeInUp"
+              data-wow-delay="200ms"
+            >
+              <div className="footer-widget__column footer-widget__explore clearfix">
+                <h3 className="footer-widget__title">Inside</h3>
+                <ul className="footer-widget__explore-list list-unstyled">
+                  {inside.slice(0, 5).map(({ id, title, href }) => (
+                    <li key={id}>
+                      <a href={href}>{title}</a>
+                    </li>
+                  ))}
+                </ul>
+                <ul className="footer-widget__explore-list footer-widget__explore-list-two list-unstyled">
+                  {exploreList.slice(5).map(({ id, title, href }) => (
+                    <li key={id}>
+                      <a href={href}>{title}</a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Col>
+            <Col
+              xl={3}
+              lg={6}
+              md={6}
+              className="wow fadeInUp"
+              data-wow-delay="200ms"
+            >
+              <div className="footer-widget__column footer-widget__explore clearfix">
+                <h3 className="footer-widget__title">Thingking</h3>
+                <ul className="footer-widget__explore-list list-unstyled">
+                  {inside.slice(0, 5).map(({ id, title, href }) => (
+                    <li key={id}>
+                      <a href={href}>{title}</a>
+                    </li>
+                  ))}
+                </ul>
+                <ul className="footer-widget__explore-list footer-widget__explore-list-two list-unstyled">
+                  {Thingking.slice(5).map(({ id, title, href }) => (
+                    <li key={id}>
+                      <a href={href}>{title}</a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Col>
+            <Col xl={3} lg={6} md={6} className="fadeInUp pb-5">
               <div className="footer-widget__column footer-widget__contact">
-                <h3 className="footer-widget__title">Contact</h3>
                 <ul className="list-unstyled footer-widget__contact-list">
                   <li>
                     <div className="icon">
@@ -103,63 +171,7 @@ const SiteFooter = () => {
               md={6}
               className="wow fadeInUp"
               data-wow-delay="400ms"
-            >
-              <div className="footer-widget__column footer-widget__newsletter">
-                <h3 className="footer-widget__title">Newsletter</h3>
-                <p className="footer-widget__newsletter-text">
-                  Lorem ipsum dolor sit ame consect etur pisicing elit sed do.
-                </p>
-                <form className="footer-widget__newsletter-form">
-                  <input
-                    type="email"
-                    placeholder="Email address"
-                    name="email"
-                  />
-                  <button
-                    type="submit"
-                    className="footer-widget__newsletter-btn"
-                  >
-                    <i className="fas fa-arrow-circle-right"></i>Send
-                  </button>
-                </form>
-              </div>
-            </Col>
-          </Row>
-        </div>
-        <div className="site-footer__bottom">
-          <Row>
-            <Col xl={12}>
-              <div className="site-footer__bottom-inner">
-                <div className="site-footer__bottom-logo-social">
-                  <div className="site-footer__bottom-logo">
-                    <Link href="/">
-                      <a>
-                        <Image src={bottomLogo} alt="" />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="site-footer__bottom-social">
-                    {social.map(({ id, icon, href }) => (
-                      <a href={href} key={id}>
-                        <i className={`fab ${icon}`}></i>
-                      </a>
-                    ))}
-                  </div>
-                </div>
-                <div className="site-footer__bottom-copy-right">
-                  <p>
-                    © Copyright {copyrightYear} by{" "}
-                    <a
-                      target="_blank"
-                      rel="noreferrer"
-                      href={`https://${link}`}
-                    >
-                      {link}
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </Col>
+            ></Col>
           </Row>
         </div>
       </Container>
