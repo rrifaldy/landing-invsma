@@ -40,9 +40,14 @@ const ContactForm = () => {
           </Col>
         </Row>
         <Row>
-          <Col xl={12}>
+          <Col xl={6}>
             <div className="contact-page__input-box">
               <input type="text" placeholder="Phone Number" name="phone" />
+            </div>
+          </Col>
+          <Col xl={6}>
+            <div className="contact-page__input-box">
+              <input type="text" placeholder="Company" name="company" />
             </div>
           </Col>
           <Col xl={12}>

@@ -19,10 +19,7 @@ const {
 const SiteFooter = () => {
   return (
     <footer className="site-footer">
-      <div
-        className="site-footer-bg"
-        style={{ backgroundImage: `url(${footerBg})` }}
-      ></div>
+      <div className="site-footer-bg"></div>
       <Container>
         <div className="site-footer__top">
           <Row>

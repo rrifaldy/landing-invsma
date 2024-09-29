@@ -8,7 +8,7 @@ const navItems = [
   {
     id: 2,
     name: "Services",
-    href: "#",
+    href: "",
     subNavItems: [
       { id: 1, name: "Sukuk", href: "/sukuk" },
       { id: 2, name: "Sharia Stock", href: "/stock" },
@@ -26,11 +26,11 @@ const navItems = [
   {
     id: 4,
     name: "Information",
-    href: "#",
+    href: "",
     subNavItems: [
-      { id: 1, name: "Publisher's Guide", href: "#" },
-      { id: 2, name: "Financire's Guide", href: "#" },
-      { id: 3, name: "Contacts", href: "#" },
+      { id: 1, name: "Publisher's Guide", href: "/publisher" },
+      { id: 2, name: "Financire's Guide", href: "/financier" },
+      { id: 3, name: "Contacts", href: "/contact" },
     ],
   },
   {

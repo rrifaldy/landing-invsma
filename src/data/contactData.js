@@ -1,16 +1,16 @@
-import image from "@/images/resources/contact-page-img-1.jpg";
+import image from "@/images/resources/assets-cms.jpg";
 
 export const contact = {
-  tel: "92 666 888 0000",
-  email: "needhelp@company.com",
-  officeAddress: "80 broklyn golden street",
+  tel: "0812-9230-0803",
+  email: "admin@invsma.com",
+  officeAddress: "Jakarta, Indonesia",
 };
 
 const contactData = {
   ...contact,
   image,
   description:
-    "There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words even slightly believable.",
+    "To contact us, please complete the form below. We will use your information to communicate with you regarding your inquiry or request.",
 };
 
 export default contactData;

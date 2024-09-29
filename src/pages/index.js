@@ -1,14 +1,13 @@
-import BrandOne from "@/components/BrandOne/BrandOne";
+import BestService from "@/components/BestService/BestService";
 import CausesOne from "@/components/CausesOne/CausesOne";
 import Charity from "@/components/Charity/Charity";
-import GalleryOne from "@/components/GalleryOne/GalleryOne";
+import Disclaimer from "@/components/Disclaimer/Disclaimer";
 import HelpingOne from "@/components/HelpingOne/HelpingOne";
 import HelpThem from "@/components/HelpThem/HelpThem";
 import JoinOne from "@/components/JoinOne/JoinOne";
 import Layout from "@/components/Layout/Layout";
 import MainSlider from "@/components/MainSlider/MainSlider";
-import NewsOne from "@/components/NewsOne/NewsOne";
-import TestimonialOne from "@/components/TestimonialOne/TestimonialOne";
+import ReachUs from "@/components/ReachUs/ReachUs";
 import ThreeBoxes from "@/components/ThreeBoxes/ThreeBoxes";
 
 const Home = () => {
@@ -20,11 +19,10 @@ const Home = () => {
       <JoinOne />
       <ThreeBoxes />
       <HelpingOne />
-      <GalleryOne />
-      <TestimonialOne />
+      <BestService />
       <HelpThem />
-      <NewsOne />
-      <BrandOne />
+      <ReachUs/>
+      <Disclaimer/>
     </Layout>
   );
 };

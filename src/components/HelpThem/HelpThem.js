@@ -1,12 +1,13 @@
 import helpThem from "@/data/helpThem";
 import VideoData from "@/data/videoData";
-import bg from "@/images/backgrounds/help-them-bg.jpg";
+import bg from "@/images/backgrounds/Team.webp";
 import dynamic from "next/dynamic";
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import JarallaxImage from "../Jarallax/JarallaxImage";
 import Video from "./Video";
 import VideoModal from "./VideoModal";
+import { Link } from "react-scroll";
 const Jarallax = dynamic(() => import("../Jarallax/Jarallax"), { ssr: false });
 
 const HelpThem = () => {
@@ -16,7 +17,7 @@ const HelpThem = () => {
   return (
     <>
       <section className="help-them">
-        <Jarallax className="help-them-bg" speed={0.2} imgPosition="50% 0%">
+        <Jarallax className="help-them-bg" speed={0.1} imgPosition="50% 0%">
           <JarallaxImage src={bg.src} />
           <Container>
             <div className="help-them__top">
@@ -24,31 +25,14 @@ const HelpThem = () => {
                 <Col xl={8} lg={8}>
                   <div className="help-them__top-content">
                     <h2 className="help-them__top-content-title">
-                      Help them whenever they are in need
+                      Get to know the incredible individuals behind our company
                     </h2>
                   </div>
                 </Col>
-                <Col xl={4} lg={4}>
-                  <Video setOpen={setOpen} />
-                </Col>
               </Row>
-            </div>
-            <div className="help-them__bottom">
-              <Row>
-                {helpThem.map(({ id, title, subTitle, icon }) => (
-                  <Col xl={4} lg={4} key={id}>
-                    <div className="help-them__single">
-                      <div className="help-them__icon">
-                        <span className={icon}></span>
-                      </div>
-                      <div className="help-them__text">
-                        <h3>{title}</h3>
-                        <p>{subTitle}</p>
-                      </div>
-                    </div>
-                  </Col>
-                ))}
-              </Row>
+              <Link href="/causes-details" className="mt-5">
+                <a className="main-menu__donate-btn mt-5" style={{marginLeft:'0px'}}>Our Team</a>
+              </Link>
             </div>
           </Container>
         </Jarallax>
