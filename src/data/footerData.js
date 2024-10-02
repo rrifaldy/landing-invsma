@@ -36,31 +36,36 @@ const footerData = {
     {
       id: 1,
       href: "#",
-      title: "Publisher",
+      title: "Penerbit",
     },
     {
       id: 2,
       href: "#",
-      title: "Financier",
+      title: "Pemodal",
     },
   ],
   inside: [
     {
       id: 1,
       href: "#",
-      title: "About",
+      title: "Galeri Bisnis",
     },
     {
       id: 2,
       href: "#",
-      title: "Contact",
+      title: "Pasar Sekunder",
     },
   ],
   Thingking: [
     {
       id: 1,
       href: "#",
-      title: "Subscribe",
+      title: "Kebijakan Privasi",
+    },
+    {
+      id: 1,
+      href: "#",
+      title: "Risiko-Risiko",
     },
   ],
   copyright: [

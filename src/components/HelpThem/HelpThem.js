@@ -7,7 +7,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import JarallaxImage from "../Jarallax/JarallaxImage";
 import Video from "./Video";
 import VideoModal from "./VideoModal";
-import { Link } from "react-scroll";
+import Link from "next/link";
 const Jarallax = dynamic(() => import("../Jarallax/Jarallax"), { ssr: false });
 
 const HelpThem = () => {
@@ -31,7 +31,12 @@ const HelpThem = () => {
                 </Col>
               </Row>
               <Link href="/causes-details" className="mt-5">
-                <a className="main-menu__donate-btn mt-5" style={{marginLeft:'0px'}}>Our Team</a>
+                <a
+                  className="main-menu__donate-btn mt-5"
+                  style={{ marginLeft: "0px" }}
+                >
+                  Our Team
+                </a>
               </Link>
             </div>
           </Container>

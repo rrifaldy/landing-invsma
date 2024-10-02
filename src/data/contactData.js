@@ -1,9 +1,8 @@
 import image from "@/images/resources/contact-page-img-1.jpg";
 
 export const contact = {
-  tel: "92 666 888 0000",
-  email: "needhelp@company.com",
-  officeAddress: "80 broklyn golden street",
+  tel: "0812-9230-0803",
+  email: "admin@invsma.com",
 };
 
 const contactData = {
