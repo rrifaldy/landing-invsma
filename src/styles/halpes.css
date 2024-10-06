@@ -42,6 +42,245 @@
   font-size: 1rem;
 }
 
+/* ========== */
+
+/* Nilai */
+
+.competitive-advantage-section {
+  background-color: white;
+  padding: 1.5rem 0;
+}
+
+.competitive-advantage-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.competitive-advantage-text-section {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.competitive-advantage-title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4A5568;
+}
+
+.competitive-advantage-features-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.competitive-advantage-feature {
+  display: flex;
+  gap: 1rem;
+}
+
+.competitive-advantage-icon-container {
+  height: 3rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00b894;
+  color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.competitive-advantage-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.competitive-advantage-icon-container span {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.competitive-advantage-icon-container span[data-icon="I"] {
+  letter-spacing: 0.5rem;
+}
+
+.competitive-advantage-feature-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.competitive-advantage-feature-description {
+  margin-bottom: 0.5rem;
+  color: #A0AEC0;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.competitive-advantage-more-link {
+  font-weight: bold;
+  color: #5A67D8;
+  transition: color 0.1s;
+}
+
+.competitive-advantage-more-link:hover {
+  color: #4C51BF;
+}
+
+.competitive-advantage-more-link:active {
+  color: #3B2C89;
+}
+/* ======================================================= */
+
+/* Visi Misi */
+
+.visi-misi-section {
+  background-color: white;
+  padding: 1.5rem 0;
+}
+
+.visi-misi-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.visi-misi-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .visi-misi-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
+
+.visi-misi-image-container {
+  position: relative;
+  height: 550px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background-color: #f3f4f6;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.visi-misi-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.visi-misi-content {
+  padding-top: 2rem;
+}
+
+.visi-misi-highlight {
+  text-align: center;
+  font-weight: bold;
+  color: #00b894;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .visi-misi-highlight {
+    text-align: left;
+  }
+  
+}
+
+.visi-misi-title {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+@media (min-width: 640px) {
+  .visi-misi-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .visi-misi-title {
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.visi-misi-description {
+  margin-bottom: 1.5rem;
+  color: #6b7280;
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+
+@media (min-width: 768px) {
+  .visi-misi-description {
+    margin-bottom: 2rem;
+  }
+}
+
+.visi-misi-list {
+  color: #6b7280;
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  font-weight: normal;
+}
+
+.visi-misi-list li {
+  margin-bottom: 0.5rem;
+}
+
+.visi-misi-link {
+  color: #6366f1;
+  text-decoration: underline;
+  transition: color 0.1s ease-in-out;
+}
+
+.visi-misi-link:hover {
+  color: #4f46e5;
+}
+
+.visi-misi-link:active {
+  color: #4338ca;
+}
+
+.visi-misi-subtitle {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+@media (min-width: 640px) {
+  .visi-misi-subtitle {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .visi-misi-subtitle {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+}
+
+/* ======================================================= */
+
 ::selection {
   color: #fff;
   background: #27ae60;
@@ -396,7 +635,7 @@ h6 {
   position: relative;
   width: 15%;
   float: left;
-  background-color: var(--thm-primary);
+  background-color: transparent;
   text-align: center;
   padding: 26px 0;
 }

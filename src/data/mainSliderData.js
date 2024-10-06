@@ -1,5 +1,5 @@
-import bg1 from "../assets/hero/Asset2.jpg";
-import bg2 from "../assets/hero/Asset3.jpg";
+import bg1 from "@/images/hero/Asset2.jpg";
+import bg2 from "@/images/hero/Asset3.jpg";
 import image from "@/images/shapes/main-slider-1-shape-1.png";
 
 const mainSliderData = [
