@@ -30,6 +30,11 @@ const settings = {
 
 const CausesOne = () => {
   const [project, setProject] = useState([]);
+  const [isMounted, setIsMounted] = useState(false); // untuk cek apakah sudah di-mount di client
+
+  useEffect(() => {
+    setIsMounted(true); // set true saat di-mount
+  }, []);
 
   useEffect(() => {
     const getList = async () => {
@@ -40,8 +45,11 @@ const CausesOne = () => {
         console.error(error);
       }
     };
-    getList();
-  }, []);
+
+    if (isMounted) { // hanya fetch data saat sudah di-mount
+      getList();
+    }
+  }, [isMounted]);
 
   return (
     <section className="causes-one">
