@@ -30,9 +30,9 @@ const navItems = [
     name: "Informasi",
     href: "",
     subNavItems: [
-      { id: 1, name: "Publisher's Guide", href: "/publisher" },
-      { id: 2, name: "Financire's Guide", href: "/financier" },
-      { id: 3, name: "Contacts", href: "/contact" },
+      { id: 1, name: "Penerbit", href: "/publisher" },
+      { id: 2, name: "Pemodal", href: "/financier" },
+      { id: 3, name: "Kontak Kami", href: "/contact" },
     ],
   },
 ];

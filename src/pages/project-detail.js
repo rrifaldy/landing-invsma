@@ -1,15 +1,15 @@
-import CausesDetailsPage from "@/components/CausesDetails/CausesDetails";
 import Layout from "@/components/Layout/Layout";
 import PageHeader from "@/components/PageHeader/PageHeader";
+import ProjectDetailsPage from "@/components/ProjectDetails/ProjectDetails";
 import React from "react";
 
-const CausesDetails = () => {
+const ProjectDetails = () => {
   return (
-    <Layout pageTitle="Causes Details">
+    <Layout pageTitle="Project Details">
       <PageHeader pageTitle="Project Details" />
-      <CausesDetailsPage />
+      <ProjectDetailsPage />
     </Layout>
   );
 };
 
-export default CausesDetails;
+export default ProjectDetails;

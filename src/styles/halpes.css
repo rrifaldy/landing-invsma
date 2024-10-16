@@ -2625,6 +2625,8 @@ h6 {
 
 .causes-one__text {
   font-size: 16px;
+  -webkit-line-clamp: 3;
+  height: 4.5em;
   margin: 0;
 }
 
@@ -5920,6 +5922,10 @@ h6 {
   width: 100%;
 }
 
+.project_left > img {
+  width: 70%;
+}
+
 .causes-details__category {
   position: absolute;
   background: var(--thm-primary);
@@ -6324,6 +6330,11 @@ h6 {
 
 .causes-details__organizer-img img {
   width: 60px;
+  height: 40px;
+}
+
+.causes-details__organizer-img .project_left img {
+  width: 60%;
   height: 40px;
 }
 
