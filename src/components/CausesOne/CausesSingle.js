@@ -2,6 +2,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { Image } from "react-bootstrap";
 import ReactVisibilitySensor from "react-visibility-sensor";
+import { baseUrl } from "src/api/apiurl";
 import { formatToIDR } from "src/helper/formatIDR";
 
 const CausesSingle = ({ cause = {}, causePage }) => {
@@ -13,10 +14,10 @@ const CausesSingle = ({ cause = {}, causePage }) => {
     }
   };
 
-  const { image, category, title, description, raised, goal, pt, lokasi, day } =
+  const { image, nama, desc, lokasi, oleh, sisaWaktu, target, tercapai, tipe } =
     cause;
-  const raisedNumber = +raised.split(",").join("");
-  const goalNumber = +goal.split(",").join("");
+  const raisedNumber = tercapai;
+  const goalNumber = target;
   const percent = Math.round((raisedNumber / goalNumber) * 100);
 
   return (
@@ -27,10 +28,7 @@ const CausesSingle = ({ cause = {}, causePage }) => {
       >
         <div className="causes-one__img">
           <div className="causes-one__img-box">
-            <Image
-              src={require(`@/images/project/${image}`).default.src}
-              alt=""
-            />
+            <Image src={`${baseUrl}${image}`} alt="" />
             <Link href="/causes-details">
               <a>
                 <i className="fa fa-plus"></i>
@@ -38,15 +36,15 @@ const CausesSingle = ({ cause = {}, causePage }) => {
             </Link>
           </div>
           <div className="causes-one__category">
-            <span>{category}</span>
+            <span>{tipe}</span>
           </div>
         </div>
         <div className="causes-one__content">
           <h3 className="causes-one__title">
-            <Link href="/causes-details">{title}</Link>
+            <Link href="/causes-details">{nama}</Link>
           </h3>
           <div className="d-flex justify-content-between align-items-center">
-            <p style={{ fontSize: "12px" }}>By {pt}</p>
+            <p style={{ fontSize: "12px" }}>By {oleh}</p>
             <p
               style={{ fontSize: "12px" }}
               className="d-flex align-items-center gap-2"
@@ -73,7 +71,7 @@ const CausesSingle = ({ cause = {}, causePage }) => {
               {lokasi}
             </p>
           </div>
-          <p className="causes-one__text">{description}</p>
+          <p className="causes-one__text">{desc}</p>
         </div>
         <div className="causes-one__progress">
           <ReactVisibilitySensor
@@ -97,14 +95,14 @@ const CausesSingle = ({ cause = {}, causePage }) => {
             <div>
               <p style={{ marginBottom: "0", fontSize: "12px" }}>Tercapai</p>
               <p style={{ marginBottom: "0", fontSize: "14px" }}>
-                {formatToIDR(raised)}
+                {formatToIDR(tercapai)}
               </p>
             </div>
 
             <div>
               <p style={{ marginBottom: "0", fontSize: "12px" }}>Target</p>
               <p style={{ marginBottom: "0", fontSize: "14px" }}>
-                {formatToIDR(goal)}
+                {formatToIDR(target)}
               </p>
             </div>
           </div>
@@ -113,13 +111,13 @@ const CausesSingle = ({ cause = {}, causePage }) => {
               <p style={{ marginBottom: "0", fontSize: "12px" }}>
                 Waktu Tersisa
               </p>
-              <p style={{ marginBottom: "0", fontSize: "14px" }}>{day} Days</p>
+              <p style={{ marginBottom: "0", fontSize: "14px" }}>
+                {sisaWaktu} Days
+              </p>
             </div>
 
-            <Link href="/causes-details">
-              <a className="main-menu__donate-btn">
-              Detail Project
-              </a>
+            <Link href="/project-detail">
+              <a className="main-menu__donate-btn">Detail Project</a>
             </Link>
           </div>
         </div>

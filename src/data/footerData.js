@@ -14,71 +14,77 @@ const footerData = {
     {
       id: 1,
       href: "#",
-      icon: "fa-twitter"
+      icon: "fa-twitter",
     },
     {
       id: 2,
       href: "#",
-      icon: "fa-facebook-square"
+      icon: "fa-facebook-square",
     },
     {
       id: 3,
       href: "#",
-      icon: "fa-dribbble"
+      icon: "fa-dribbble",
     },
     {
       id: 4,
       href: "#",
-      icon: "fa-instagram"
-    }
+      icon: "fa-instagram",
+    },
   ],
   exploreList: [
     {
       id: 1,
       href: "#",
-      title: "Donate"
+      title: "Penerbit",
     },
     {
       id: 2,
       href: "#",
-      title: "Campaigns"
+      title: "Pemodal",
+    },
+  ],
+  inside: [
+    {
+      id: 1,
+      href: "#",
+      title: "Galeri Bisnis",
     },
     {
-      id: 3,
+      id: 2,
       href: "#",
-      title: "Fundraise"
+      title: "Pasar Sekunder",
+    },
+  ],
+  Thingking: [
+    {
+      id: 1,
+      href: "#",
+      title: "Kebijakan Privasi",
     },
     {
-      id: 4,
+      id: 1,
       href: "#",
-      title: "Volunteers"
+      title: "Risiko-Risiko",
+    },
+  ],
+  copyright: [
+    {
+      id: 1,
+      href: "#",
+      title: "Privacy",
     },
     {
-      id: 5,
+      id: 1,
       href: "#",
-      title: "Sponsors"
+      title: "Term of use",
     },
     {
-      id: 6,
+      id: 1,
       href: "#",
-      title: "Fundraising"
+      title: "© 2024 INVSMA.CO.ID",
     },
-    {
-      id: 7,
-      href: "#",
-      title: "Contact"
-    },
-    {
-      id: 8,
-      href: "#",
-      title: "Help"
-    },
-    {
-      id: 9,
-      href: "#",
-      title: "Faqs"
-    }
-  ]
+  ],
 };
 
 export default footerData;

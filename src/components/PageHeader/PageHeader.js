@@ -1,4 +1,4 @@
-import bg from "@/images/backgrounds/page-header-bg-1-1.jpg";
+import bg from "@/images/hero/Asset3.jpg";
 import Link from "next/link";
 import React from "react";
 
@@ -7,7 +7,12 @@ const PageHeader = ({ pageTitle = "" }) => {
     <section className="page-header">
       <div
         className="page-header__bg"
-        style={{ backgroundImage: `url(${bg.src})` }}
+        style={{
+          backgroundImage: `url(${bg.src})`,
+          backgroundSize: "cover", // Mengisi seluruh elemen tanpa terpotong
+          backgroundPosition: "center", // Memusatkan gambar
+          backgroundRepeat: "no-repeat",
+        }}
       ></div>
       <div className="container">
         <h2>{pageTitle}</h2>
