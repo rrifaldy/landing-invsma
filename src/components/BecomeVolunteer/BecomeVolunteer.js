@@ -14,13 +14,13 @@ const BecomeVolunteer = () => {
                   Join your hand with us for <br /> a better life and future
                 </h2>
                 <div className="become-volunteer__big-text">
-                  <h2>Become a Volunteers</h2>
+                  <h2>Become a Investor</h2>
                 </div>
               </div>
               <div className="become-volunteer__btn-box">
                 <Link href="/volunteer">
                   <a className="become-volunteer__btn thm-btn">
-                    <i className="fas fa-arrow-circle-right"></i>Learn More
+                    <i className="fas fa-arrow-circle-right"></i>Login
                   </a>
                 </Link>
               </div>

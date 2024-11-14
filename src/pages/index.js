@@ -1,5 +1,4 @@
 import BestService from "@/components/BestService/BestService";
-import CausesOne from "@/components/CausesOne/CausesOne";
 import Charity from "@/components/Charity/Charity";
 import Disclaimer from "@/components/Disclaimer/Disclaimer";
 import HelpingOne from "@/components/HelpingOne/HelpingOne";
@@ -15,7 +14,6 @@ const Home = () => {
     <Layout pageTitle="Home">
       <MainSlider />
       <Charity />
-      <CausesOne />
       <JoinOne />
       <ThreeBoxes />
       <HelpingOne />

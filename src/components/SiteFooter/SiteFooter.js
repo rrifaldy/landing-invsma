@@ -100,7 +100,7 @@ const SiteFooter = () => {
               data-wow-delay="200ms"
             >
               <div className="footer-widget__column footer-widget__explore clearfix">
-                <h3 className="footer-widget__title">Thingking</h3>
+                <h3 className="footer-widget__title">Thinking</h3>
                 <ul className="footer-widget__explore-list list-unstyled">
                   {inside.slice(0, 5).map(({ id, title, href }) => (
                     <li key={id}>

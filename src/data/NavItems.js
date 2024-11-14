@@ -1,44 +1,38 @@
 const navItems = [
   {
     id: 1,
-    name: "Home",
+    name: "Beranda",
     href: "/",
     subNavItems: [],
   },
   {
     id: 2,
-    name: "Services",
-    href: "#",
+    name: "Layanan",
+    href: "",
     subNavItems: [
       { id: 1, name: "Sukuk", href: "/sukuk" },
-      { id: 2, name: "Sharia Stock", href: "/stock" },
-      { id: 3, name: "Secondary Market", href: "/market" },
+      { id: 2, name: "Saham", href: "/stock" },
+      { id: 3, name: "Pasar Sekunder", href: "/market" },
     ],
   },
   {
     id: 3,
-    name: "About",
-    href: "/about",
+    name: "Tentang Kami",
+    href: "",
     subNavItems: [
-      
+      { id: 1, name: "Visi dan Misi Perusahaan", href: "/visi-misi" },
+      { id: 2, name: "Nilai Nilai Perusahaan", href: "/nilai" },
+      { id: 3, name: "Tim Invsma", href: "/about" },
     ],
   },
   {
     id: 4,
-    name: "Information",
-    href: "#",
+    name: "Informasi",
+    href: "",
     subNavItems: [
-      { id: 1, name: "Publisher's Guide", href: "#" },
-      { id: 2, name: "Financire's Guide", href: "#" },
-      { id: 3, name: "Contacts", href: "#" },
-    ],
-  },
-  {
-    id: 5,
-    name: "0812-8619-7142",
-    href: "#",
-    subNavItems: [
-      
+      { id: 1, name: "Penerbit", href: "/publisher" },
+      { id: 2, name: "Pemodal", href: "/financier" },
+      { id: 3, name: "Kontak Kami", href: "/contact" },
     ],
   },
 ];

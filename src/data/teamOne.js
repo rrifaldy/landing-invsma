@@ -65,7 +65,7 @@ const teamOne = [
   },
   {
     id: 9,
-    image: "riko.webp",
+    image: "riko.png",
     name: "Riko",
     title: "Riko Permana",
     description:

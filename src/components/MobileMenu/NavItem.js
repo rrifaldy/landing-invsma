@@ -24,7 +24,7 @@ const NavItem = ({ item = {} }) => {
           {name}
           <button
             onClick={handleExpand}
-            ariaLabel="dropdown toggler"
+            aria-label="dropdown toggler"
             className={expand ? "expanded" : ""}
           >
             <i className="fa fa-angle-down"></i>
