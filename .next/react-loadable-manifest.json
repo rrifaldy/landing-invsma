@@ -1,0 +1,50 @@
+{
+  "..\\components\\BrandOne\\BrandOne.js -> tiny-slider-react": {
+    "id": 2790,
+    "files": [
+      "static/chunks/790.048084fc0051d630.js"
+    ]
+  },
+  "..\\components\\Header\\Header.js -> ./HeaderOne": {
+    "id": 2418,
+    "files": [
+      "static/chunks/418.f1149b98420ccc9e.js"
+    ]
+  },
+  "..\\components\\Header\\Header.js -> ./HeaderThree": {
+    "id": 1714,
+    "files": [
+      "static/chunks/714.060b357d4d418890.js"
+    ]
+  },
+  "..\\components\\Header\\Header.js -> ./HeaderTwo": {
+    "id": 7642,
+    "files": [
+      "static/chunks/642.6854c86829814be8.js"
+    ]
+  },
+  "..\\components\\HelpThem\\HelpThem.js -> ../Jarallax/Jarallax": {
+    "id": 397,
+    "files": [
+      "static/chunks/572.0adce83582b68ec7.js",
+      "static/css/f5205a938dd2ce26.css",
+      "static/chunks/110.c71484b3dd9564ca.js"
+    ]
+  },
+  "..\\components\\JoinAbout\\JoinAbout.js -> ../Jarallax/Jarallax": {
+    "id": 397,
+    "files": [
+      "static/chunks/572.0adce83582b68ec7.js",
+      "static/css/f5205a938dd2ce26.css",
+      "static/chunks/110.c71484b3dd9564ca.js"
+    ]
+  },
+  "..\\components\\JoinOne\\JoinOne.js -> ../Jarallax/Jarallax": {
+    "id": 397,
+    "files": [
+      "static/chunks/572.0adce83582b68ec7.js",
+      "static/css/f5205a938dd2ce26.css",
+      "static/chunks/110.c71484b3dd9564ca.js"
+    ]
+  }
+}
