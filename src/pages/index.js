@@ -10,17 +10,16 @@ import MainSlider from "@/components/MainSlider/MainSlider";
 import NewsOne from "@/components/NewsOne/NewsOne";
 import TestimonialOne from "@/components/TestimonialOne/TestimonialOne";
 import ThreeBoxes from "@/components/ThreeBoxes/ThreeBoxes";
+import WhyUs from "@/components/WhyUs/WhyUs";
 
 const Home = () => {
   return (
     <Layout pageTitle="Beranda">
       <MainSlider />
-      
+
       <CausesOne />
-      <JoinOne />
-      <ThreeBoxes />
+      <WhyUs />
       <HelpingOne />
-      <GalleryOne />
       <TestimonialOne />
       <HelpThem />
       <NewsOne />

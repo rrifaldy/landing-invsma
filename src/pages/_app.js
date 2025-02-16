@@ -1,5 +1,6 @@
 import ContextProvider from "@/context/ContextProvider";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import "@/vendors/halpes-icons/style.css";
 import "@/vendors/reey-font/stylesheet.css";
 import "@/vendors/fontawesome/css/all.min.css";

@@ -1,5 +1,6 @@
 import newsData from "@/data/NewsData";
-import image from "@/images/blog/news-one-img-1.jpg";
+import image4 from "@/images/new-asset/berita-4.jpg";
+
 import Link from "next/link";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
@@ -12,7 +13,9 @@ const NewsOne = () => {
         <Row>
           <Col xl={8} lg={8}>
             <div className="section-title text-left">
-              <span className="section-title__tagline">Dapatkan Update Harian</span>
+              <span className="section-title__tagline">
+                Dapatkan Update Harian
+              </span>
               <h2 className="section-title__title">
                 Berita & artikel terbaru seputar <br />
                 investasi dan pasar keuangan
@@ -31,7 +34,7 @@ const NewsOne = () => {
           <Col xl={6} lg={6}>
             <div className="news-one__left">
               <div className="news-one__img">
-                <Image src={image.src} alt="" />
+                <Image src={image4.src} alt="" />
                 <Link href="/news-details">
                   <a>
                     <i className="fa fa-plus"></i>
