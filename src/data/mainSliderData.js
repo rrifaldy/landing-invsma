@@ -23,6 +23,4 @@ const mainSliderData = [
 
 export default mainSliderData;
 
-export const mainSliderCounter = [
-  
-];
+export const mainSliderCounter = [];

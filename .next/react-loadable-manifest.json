@@ -52,5 +52,11 @@
     "files": [
       "static/chunks/node_modules_tiny-slider-react_build_index_js.js"
     ]
+  },
+  "..\\components\\WhyUs\\WhyUs.js -> tiny-slider-react": {
+    "id": "..\\components\\WhyUs\\WhyUs.js -> tiny-slider-react",
+    "files": [
+      "static/chunks/node_modules_tiny-slider-react_build_index_js.js"
+    ]
   }
 }

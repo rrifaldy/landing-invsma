@@ -1,5 +1,5 @@
 import testimonial from "@/data/testimonial";
-import bg from "@/images/backgrounds/testimonial-1-bg.jpg";
+import bg from "@/images/new-asset/Untitled-1.png";
 import dynamic from "next/dynamic";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
@@ -40,7 +40,7 @@ const TestimonialOne = ({ className = "" }) => {
               <div className="section-title text-left">
                 <span className="section-title__tagline">Testimoni Kami</span>
                 <h2 className="section-title__title">
-                  Apa yang mereka katakan tentang Invsma
+                  Apa yang mereka katakan tentang INVSMA
                 </h2>
               </div>
             </div>
@@ -72,4 +72,3 @@ const TestimonialOne = ({ className = "" }) => {
 };
 
 export default TestimonialOne;
-

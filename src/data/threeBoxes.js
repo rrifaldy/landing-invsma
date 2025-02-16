@@ -9,14 +9,14 @@ const threeBoxes = [
   {
     id: 2,
     icon: "icon-water",
-    className: "three-boxes__single-item-two",
+    className: "border-start",
     title: "6.4 Million",
     desc: "(SAM) Serviceable Available Market",
   },
   {
     id: 3,
     icon: "icon-health-check",
-    className: "three-boxes__single-item-three",
+    className: "border-start",
     title: "Less Then 0.1%",
     desc: "(SOM) Serviceable Obtainable Market",
   },
