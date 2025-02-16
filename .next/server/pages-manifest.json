@@ -1,24 +1,6 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/about": "pages/about.html",
-  "/become-volunteer": "pages/become-volunteer.html",
-  "/contact": "pages/contact.html",
-  "/event-details": "pages/event-details.html",
-  "/events": "pages/events.html",
-  "/financier": "pages/financier.html",
-  "/gallery": "pages/gallery.html",
-  "/": "pages/index.html",
-  "/login": "pages/login.html",
-  "/market": "pages/market.html",
-  "/nilai": "pages/nilai.html",
-  "/project-detail": "pages/project-detail.html",
-  "/publisher": "pages/publisher.html",
-  "/stock": "pages/stock.html",
-  "/sukuk": "pages/sukuk.html",
-  "/transaksi": "pages/transaksi.html",
-  "/visi-misi": "pages/visi-misi.html",
-  "/volunteers": "pages/volunteers.html",
   "/_error": "pages/_error.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }
