@@ -33,9 +33,9 @@ const CausesOne = () => {
     <section className="causes-one">
       <Container>
         <div className="section-title text-center">
-          <span className="section-title__tagline">Our Project</span>
-          <h2 className="section-title__title">
-            Our Projects Explore investment opportunities handpicked for growth.
+          <span className="section-title__title">Our Project</span>
+          <h2 className="section-title_desc">
+            Explore investment opportunities handpicked for growth.
             <br />
             Join us in shaping tomorrow&#39;s success stories.
           </h2>

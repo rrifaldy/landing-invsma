@@ -9,9 +9,6 @@ const SingleBox = ({ singleBox }) => {
       <div className={`three-boxes__single ${className}`}>
         <div className="three-boxes__single-bg"></div>
         <div className="three-boxes__content">
-          <div className="three-boxes__icon">
-            <span className={icon}></span>
-          </div>
           <div className="three-boxes__text-box">
             <h2>{title}</h2>
             <p className="three-boxes__text">{desc}</p>
