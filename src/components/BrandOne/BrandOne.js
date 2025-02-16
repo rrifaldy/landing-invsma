@@ -32,27 +32,26 @@ const settings = {
   },
 };
 
-// Array with main text and subtext
 const brandTexts = [
   {
-    main: "Insight to light",
-    subtext: "by challenging traditional thinking and ways of operating and bringing new perspectives to the toughest problems."
+    main: "Integrity",
+    subtext: "the quality of being honest and having strong moral principles. It involves consistency in actions, values, methods, and principles, and is often associated with trustworthiness and reliability."
   },
   {
-    main: "Drive inspired impact",
-    subtext: "by looking beyond the next deadline to the next decade and by collaborating closely with our clients to enable and energize their organizations."
+    main: "Niche",
+    subtext: "These are products or services designed to appeal to a specific segment of the market. For example, a company might produce organic, gluten-free snacks for health-conscious consumers. These products cater to a niche market rather than the mass market."
   },
   {
-    main: "Conquer complexity",
-    subtext: "by discovering unique sources of competitive advantage and hidden truths in dynamic, complex systems."
+    main: "Visionary",
+    subtext: "Forward-Thinking, Resilient and Persistent, Strategic Thinker."
   },
   {
-    main: "Lead with integrity",
-    subtext: "by confronting the hard issues, staying true to our values, and stating our views candidly and directly."
+    main: "Sustainability",
+    subtext: "Consider their long-term impacts on society, the economy, and the environment."
   },
   {
-    main: "Grow by growing others",
-    subtext: "enabling our clients, colleagues, and the broader community to build success and achieve their full potential."
+    main: "Muamalah",
+    subtext: "Governs financial and commercial dealings, ensuring they are conducted in a manner that is fair, transparent, and compliant with Islamic law."
   }
 ];
 

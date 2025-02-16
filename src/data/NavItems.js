@@ -8,7 +8,7 @@ const navItems = [
   {
     id: 2,
     name: "Layanan",
-    href: "",
+    href: "/service",
     subNavItems: [
       { id: 1, name: "Sukuk", href: "/sukuk" },
       { id: 2, name: "Saham", href: "/stock" },

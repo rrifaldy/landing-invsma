@@ -48,24 +48,29 @@ const footerData = {
     {
       id: 1,
       href: "#",
-      title: "Galeri Bisnis",
+      title: "Tentang Kami",
     },
     {
       id: 2,
       href: "#",
-      title: "Pasar Sekunder",
+      title: "Visi Misi",
     },
   ],
   Thingking: [
     {
       id: 1,
       href: "#",
-      title: "Kebijakan Privasi",
+      title: "Saham",
     },
     {
-      id: 1,
+      id: 2,
       href: "#",
-      title: "Risiko-Risiko",
+      title: "Sukuk",
+    },
+    {
+      id: 2,
+      href: "#",
+      title: "Pasar Sekunder",
     },
   ],
   copyright: [

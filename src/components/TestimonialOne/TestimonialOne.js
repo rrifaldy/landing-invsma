@@ -38,9 +38,9 @@ const TestimonialOne = ({ className = "" }) => {
           <Col xl={4}>
             <div className="testimonial-one__left">
               <div className="section-title text-left">
-                <span className="section-title__tagline">Our Testimonials</span>
+                <span className="section-title__tagline">Testimoni Kami</span>
                 <h2 className="section-title__title">
-                  What they’re talking about Invsma
+                  Apa yang mereka katakan tentang Invsma
                 </h2>
               </div>
             </div>
@@ -72,3 +72,4 @@ const TestimonialOne = ({ className = "" }) => {
 };
 
 export default TestimonialOne;
+

@@ -2,33 +2,33 @@ const testimonial = [
   {
     id: 1,
     description:
-      "Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Saya sangat puas berinvestasi di Invmsa. Keamanan dan transparansi perusahaan ini membuat saya semakin percaya untuk menanamkan modal saya di sini.",
     image: "testimonial-1-img-1.png",
-    name: "Kevin Martin",
+    name: "Budi Santoso",
     category: "Investor",
   },
   {
     id: 2,
     description:
-      "Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Invmsa memberikan layanan investasi yang profesional dan terpercaya. Saya telah melihat pertumbuhan signifikan dalam portofolio saya sejak bergabung.",
     image: "testimonial-1-img-2.png",
-    name: "Jessica Brown",
+    name: "Siti Rahma",
     category: "Investor",
   },
   {
     id: 3,
     description:
-      "Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Sebagai investor pemula, saya merasa terbantu dengan edukasi dan panduan yang diberikan oleh Invmsa. Mereka benar-benar peduli terhadap kesuksesan investor mereka.",
     image: "testimonial-1-img-1.png",
-    name: "Jessica Brown",
+    name: "Andi Wijaya",
     category: "Investor",
   },
   {
     id: 4,
     description:
-      "Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Invmsa adalah pilihan tepat bagi siapa saja yang ingin berinvestasi dengan aman dan menguntungkan. Saya sangat merekomendasikan perusahaan ini!",
     image: "testimonial-1-img-2.png",
-    name: "Kevin Martin",
+    name: "Dewi Lestari",
     category: "Investor",
   },
 ];

@@ -50,7 +50,7 @@ const SiteFooter = () => {
               data-wow-delay="200ms"
             >
               <div className="footer-widget__column footer-widget__explore clearfix">
-                <h3 className="footer-widget__title">Service</h3>
+                <h3 className="footer-widget__title">Informasi</h3>
                 <ul className="footer-widget__explore-list list-unstyled">
                   {exploreList.slice(0, 5).map(({ id, title, href }) => (
                     <li key={id}>
@@ -75,7 +75,7 @@ const SiteFooter = () => {
               data-wow-delay="200ms"
             >
               <div className="footer-widget__column footer-widget__explore clearfix">
-                <h3 className="footer-widget__title">Inside</h3>
+                <h3 className="footer-widget__title">Tentang</h3>
                 <ul className="footer-widget__explore-list list-unstyled">
                   {inside.slice(0, 5).map(({ id, title, href }) => (
                     <li key={id}>
@@ -100,9 +100,9 @@ const SiteFooter = () => {
               data-wow-delay="200ms"
             >
               <div className="footer-widget__column footer-widget__explore clearfix">
-                <h3 className="footer-widget__title">Thinking</h3>
+                <h3 className="footer-widget__title">Layanan</h3>
                 <ul className="footer-widget__explore-list list-unstyled">
-                  {inside.slice(0, 5).map(({ id, title, href }) => (
+                  {Thingking.slice(0, 5).map(({ id, title, href }) => (
                     <li key={id}>
                       <a href={href}>{title}</a>
                     </li>
@@ -126,7 +126,7 @@ const SiteFooter = () => {
                     </div>
                     <div className="text">
                       <p>
-                        <span>Customer Service:</span>
+                        <span>Layanan Pelanggan:</span>
                         <a href={`tel:${tel}`}>{tel}</a>
                       </p>
                     </div>
@@ -137,7 +137,7 @@ const SiteFooter = () => {
                     </div>
                     <div className="text">
                       <p>
-                        <span>Send Email</span>
+                        <span>Kirim Email</span>
                         <a href={`mailto:${email}`}>{email}</a>
                       </p>
                     </div>
@@ -197,3 +197,4 @@ const SiteFooter = () => {
 };
 
 export default SiteFooter;
+

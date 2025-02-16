@@ -1,0 +1,56 @@
+{
+  "..\\components\\BrandOne\\BrandOne.js -> tiny-slider-react": {
+    "id": "..\\components\\BrandOne\\BrandOne.js -> tiny-slider-react",
+    "files": [
+      "static/chunks/node_modules_tiny-slider-react_build_index_js.js"
+    ]
+  },
+  "..\\components\\CausesOne\\CausesOne.js -> tiny-slider-react": {
+    "id": "..\\components\\CausesOne\\CausesOne.js -> tiny-slider-react",
+    "files": [
+      "static/chunks/node_modules_tiny-slider-react_build_index_js.js"
+    ]
+  },
+  "..\\components\\GalleryOne\\GalleryOne.js -> tiny-slider-react": {
+    "id": "..\\components\\GalleryOne\\GalleryOne.js -> tiny-slider-react",
+    "files": [
+      "static/chunks/node_modules_tiny-slider-react_build_index_js.js"
+    ]
+  },
+  "..\\components\\Header\\Header.js -> ./HeaderOne": {
+    "id": "..\\components\\Header\\Header.js -> ./HeaderOne",
+    "files": [
+      "static/chunks/src_components_Header_HeaderOne_js.js"
+    ]
+  },
+  "..\\components\\Header\\Header.js -> ./HeaderThree": {
+    "id": "..\\components\\Header\\Header.js -> ./HeaderThree",
+    "files": [
+      "static/chunks/src_components_Header_HeaderThree_js.js"
+    ]
+  },
+  "..\\components\\Header\\Header.js -> ./HeaderTwo": {
+    "id": "..\\components\\Header\\Header.js -> ./HeaderTwo",
+    "files": [
+      "static/chunks/src_components_Header_HeaderTwo_js.js"
+    ]
+  },
+  "..\\components\\HelpThem\\HelpThem.js -> ../Jarallax/Jarallax": {
+    "id": "..\\components\\HelpThem\\HelpThem.js -> ../Jarallax/Jarallax",
+    "files": [
+      "static/chunks/src_components_Jarallax_Jarallax_js.js"
+    ]
+  },
+  "..\\components\\JoinOne\\JoinOne.js -> ../Jarallax/Jarallax": {
+    "id": "..\\components\\JoinOne\\JoinOne.js -> ../Jarallax/Jarallax",
+    "files": [
+      "static/chunks/src_components_Jarallax_Jarallax_js.js"
+    ]
+  },
+  "..\\components\\TestimonialOne\\TestimonialOne.js -> tiny-slider-react": {
+    "id": "..\\components\\TestimonialOne\\TestimonialOne.js -> tiny-slider-react",
+    "files": [
+      "static/chunks/node_modules_tiny-slider-react_build_index_js.js"
+    ]
+  }
+}

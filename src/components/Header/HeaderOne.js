@@ -60,11 +60,12 @@ const HeaderOne = () => {
               </ul>
               <div className="main-menu__right">
                 <Link href="/causes-details">
-                  <a className="main-menu__donate-btn">
+                  <a className="main-menu__donate-btn" style={{ borderRadius: "10px" }}>
                     <i className="fa fa-user"></i>Login
                   </a>
                 </Link>
               </div>
+
             </div>
           </nav>
         </div>

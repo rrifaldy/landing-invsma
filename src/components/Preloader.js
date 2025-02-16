@@ -1,4 +1,4 @@
-import preloader from "@/images/loader.png";
+import preloader from "@/images/logo-hijau.png";
 import React from "react";
 import { Image } from "react-bootstrap";
 

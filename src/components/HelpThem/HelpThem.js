@@ -25,17 +25,17 @@ const HelpThem = () => {
                 <Col xl={8} lg={8}>
                   <div className="help-them__top-content">
                     <h2 className="help-them__top-content-title">
-                      Get to know the incredible individuals behind our company
+                      Kenali individu luar biasa di balik perusahaan kami
                     </h2>
                   </div>
                 </Col>
               </Row>
-              <Link href="/causes-details" className="mt-5">
+              <Link href="/about" className="mt-5">
                 <a
                   className="main-menu__donate-btn mt-5"
                   style={{ marginLeft: "0px" }}
                 >
-                  Our Team
+                  Tim Kami
                 </a>
               </Link>
             </div>
@@ -48,3 +48,4 @@ const HelpThem = () => {
 };
 
 export default HelpThem;
+
