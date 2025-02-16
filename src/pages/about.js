@@ -16,7 +16,6 @@ const About = () => {
       <JoinOne className="join-one__about" />
       <Counters className="about-page-counter" />
       <TeamOne />
-      <BrandOne />
     </Layout>
   );
 };

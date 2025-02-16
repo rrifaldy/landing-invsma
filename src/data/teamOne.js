@@ -23,14 +23,14 @@ const teamOne = [
     description:
       "Chief Executive Officer",
   },
-  {
-    id: 4,
-    image: "hasemi.webp",
-    name: "Hasemi",
-    title: "Hasemi Rafsanjani",
-    description:
-      "Chief Technology Officer",
-  },
+  // {
+  //   id: 4,
+  //   image: "hasemi.webp",
+  //   name: "Hasemi",
+  //   title: "Hasemi Rafsanjani",
+  //   description:
+  //     "Chief Technology Officer",
+  // },
   {
     id: 5,
     image: "anung.webp",
@@ -81,11 +81,27 @@ const teamOne = [
   },
   {
     id: 11,
-    image: "sabar.webp",
-    name: "Sabar",
-    title: "Muhammad Sabar",
+    image: "sidiq.webp",
+    name: "Dwi",
+    title: "Dwi Apriadi Nugraha",
     description:
-      "IT Manager",
+      "Legal & Compliance",
+  },
+  {
+    id: 12,
+    image: "sidiq.webp",
+    name: "Fajrina",
+    title: "Fajrina S Wardhani",
+    description:
+      "Finance, Accounting & Tax",
+  },
+  {
+    id: 13,
+    image: "sidiq.webp",
+    name: "Aulia",
+    title: "Aulia Nisa",
+    description:
+      "Social Media Specialists",
   },
 ];
 

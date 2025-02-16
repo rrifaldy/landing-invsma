@@ -15,7 +15,7 @@ const AboutProgressbar = ({ progress = {} }) => {
             text={`${percentage}%`}
             styles={{
               path: {
-                stroke: "#15c8a0",
+                stroke: "#0a412c",
                 strokeLinecap: "butt",
               },
               text: {
