@@ -48,6 +48,23 @@
   font-size: 1rem;
 }
 
+.btn-informasi {
+  padding: 12px 24px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+.active-btn {
+  background-color: #c4f363 !important;
+  color: #0a412c !important;
+  border: none;
+}
+.inactive-btn {
+  background-color: white !important;
+  color: #0a412c !important;
+  border: 2px solid #0a412c;
+}
+
 /* ========== */
 
 /* Nilai */
@@ -167,6 +184,8 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
   }
+
+  
 }
 
 .visi-misi-image-container {
@@ -214,6 +233,17 @@
 @media (min-width: 640px) {
   .visi-misi-title {
     font-size: 2.5rem;
+  }
+
+  
+}
+
+@media (max-width: 768px) {
+  .btn-informasi {
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
   }
 }
 

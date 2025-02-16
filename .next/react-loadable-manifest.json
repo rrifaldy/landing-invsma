@@ -1,10 +1,4 @@
 {
-  "..\\components\\BrandOne\\BrandOne.js -> tiny-slider-react": {
-    "id": "..\\components\\BrandOne\\BrandOne.js -> tiny-slider-react",
-    "files": [
-      "static/chunks/node_modules_tiny-slider-react_build_index_js.js"
-    ]
-  },
   "..\\components\\Header\\Header.js -> ./HeaderOne": {
     "id": "..\\components\\Header\\Header.js -> ./HeaderOne",
     "files": [
@@ -21,18 +15,6 @@
     "id": "..\\components\\Header\\Header.js -> ./HeaderTwo",
     "files": [
       "static/chunks/src_components_Header_HeaderTwo_js.js"
-    ]
-  },
-  "..\\components\\JoinAbout\\JoinAbout.js -> ../Jarallax/Jarallax": {
-    "id": "..\\components\\JoinAbout\\JoinAbout.js -> ../Jarallax/Jarallax",
-    "files": [
-      "static/chunks/src_components_Jarallax_Jarallax_js.js"
-    ]
-  },
-  "..\\components\\JoinOne\\JoinOne.js -> ../Jarallax/Jarallax": {
-    "id": "..\\components\\JoinOne\\JoinOne.js -> ../Jarallax/Jarallax",
-    "files": [
-      "static/chunks/src_components_Jarallax_Jarallax_js.js"
     ]
   }
 }

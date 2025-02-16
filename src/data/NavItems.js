@@ -28,7 +28,7 @@ const navItems = [
   {
     id: 4,
     name: "Informasi",
-    href: "",
+    href: "/information",
     subNavItems: [
       { id: 1, name: "Penerbit", href: "/publisher" },
       { id: 2, name: "Pemodal", href: "/financier" },
